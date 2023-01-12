@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>監督ログイン画面</title>
+    <!-- <style>
+        *{
+            outline: 1px solid #FF0000;
+        }
+    </style> -->
+    <link rel="stylesheet" href="../PHP04_kadai/style0.css">
+</head>
+
+<body>
+<!-- <header>
+    <nav>
+        <ul>
+            <li><a href="index.php#data">データ一覧</a></li>
+            <li><a href="index.php#login">ログイン</a></li>
+            <li><a href="index.php#logout">ログアウト</a></li>        
+        </ul>
+    </nav>
+</header> -->
+
+<h1 class="hero index">バスケットは、お好きですか？</h1>
+<main>
+    <p>インターハイ、国体で優勝できるチームを。あなたの戦略を実現できる、最高のメンバーを揃えましょう。<br>
+        その第一歩は、選手層の厚いチームづくりから。
+        </p>
+
+
+
+    <h2>お知らせ</h2>
+        <ul>
+            <li>健全かつ公平な試合運営のため<strong>レギュラー5人の合計身長は1,000㎝</strong>以内です</li>
+            <li>中学MVPシューターの三井寿君(身長184センチ)が入部しました</li>
+            <li>相田彦一君（身長167センチ）が転入しました</li>
+            <li>八村塁君(203センチ)が入学しました</li>
+        </ul>
+
+<h2>メニュー</h2>
+
+<!-- <div class="heroimages"><img src="images/hero_images.jpeg" alt="ロゴ画像"></div>     -->
+<div class="items">
+    <div id=data class="item">
+        <a href="player.php"><img src="../PHP04_kadai/images/player.png" alt="データ一覧画像"></a>
+        <p><strong>2023年1月時点</strong>の登録選手です。</p>   
+    </div>
+        
+    <div id=login class="item">
+        <a href="login-input.php"><img src="../PHP04_kadai/images/login.png" alt="ログイン画像"></a>
+        <p>このデータベースは<strong>監督専用です。</strong><br>
+        ログインにはIDとパスワードが必要です。</p>
+    </div>
+
+    <div id=logout class="item">
+        <a href="logout.php"><img src="../PHP04_kadai/images/logout.png" alt="ログアウト画像"></a>
+        <p>データベースの利用が終わったら、<br>
+        <strong>必ずログアウト</strong>してください。</p>    
+    </div>
+</div>
+<footer>
+    <p>&copy; All Japan BasketBall institution</p>
+</footer>
+
+</main>
+
+
+
+
+</body>
+</html>

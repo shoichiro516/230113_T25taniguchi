@@ -1,0 +1,56 @@
+/* 全てのページに適用する */
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+p,li {
+    line-height: 1.7;
+}
+
+main{
+    margin: 90px auto 90px auto;
+    max-width: 1000px;
+}
+img{
+    max-width: 100%;
+} */
+
+/* main h2{
+    margin: 60px 0 20px 0;
+    border-bottom: 2px solid #253958;
+    padding: 0 0 5px 0;
+    color: #E1653F;
+    font-size: 1.3rem;
+}
+
+/* 全てのページに適用する-ヒーロー */
+.hero{
+    background-repeat: repeat-x;
+    text-align: center;
+}
+.hero.index{
+    padding: 48px 0;
+    background-image: url(../PHP04_kadai/images/hero.jpeg);
+}
+
+/* 全てのページに適用する-メイン */
+.hero{
+    text-align: center;
+}
+
+
+/* 個別のスタイルに適用する */
+.heroimages{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    justify-content: center;
+}
+
+.loginform{
+    text-align: center;
+}
